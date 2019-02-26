@@ -9,4 +9,16 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <servlet-name>myservlet</servlet-name>
+    <servlet-class>servlet.FirstServlet</servlet-class>
+    <init-param>
+      <param-name>name</param-name>
+      <param-value>lloydfinch</param-value>
+    </init-param>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>myservlet</servlet-name>
+    <url-pattern>/firstservlet</url-pattern>
+  </servlet-mapping>
 </web-app>
